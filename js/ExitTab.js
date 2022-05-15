@@ -10,12 +10,12 @@ class ExitTab {
 		if (this.positions.includes(position)) {
 			this.position = position;
 		} else {
-			this.position = this.positions[1];
+			this.position = this.positions[5];
 		}
 		if (this.widths.includes(width)) {
 			this.width = width;
 		} else {
-			this.width = this.widths[0];
+			this.width = this.widths[3];
 		}
 	}
 }
