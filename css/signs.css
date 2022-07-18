@@ -188,18 +188,18 @@
 .exitTab {
 	border-radius: 0.5rem 0.5rem 0 0;
 	border-top-style: solid;
-	border-top-width: 0.2rem;
+	border-top-width: 0.9em;
 	border-right-style: solid;
-	border-right-width: 0.2rem;
+	border-right-width: 0.9rem;
 	border-bottom: none;
 	border-left-style: solid;
-	border-left-width: 0.2rem;
+	border-left-width: 0.9rem;
 
 	font-size: 1rem;
 
 	visibility: hidden; /* hides exitTab by default when loading page */
 	float: none;
-	min-height: 2.25rem;
+	min-height: 3.25rem;
 	padding: 0 0.5rem 0rem 0.5rem;
 }
 .exitTab.narrow,
@@ -499,6 +499,13 @@
 	transform: rotate(180deg) translateY(-2.75rem);
 }
 
+.exitOnly2siderightArrow {
+	font-family: "Side Right Arrows";
+	font-size: 4rem; /* Makes arrows large and visble */
+	line-height: 0; /* Makes space text (arrow) takes up minimal */
+
+	display: inline-block;
+	margin-top: -0.25rem;
 .arrow {
 	font-size: 4rem; /* Makes arrows large and visble */
 	line-height: 0; /* Makes space text (arrow) takes up minimal */
@@ -506,6 +513,11 @@
 	display: inline-block;
 	margin: -0.5rem 0.05rem 0.05rem 5rem;
 	padding: 0 0.1rem 0 0.05rem;
+	
+}
+
+	.exitOnlyText {
+	margin: 0 1rem;
 }
 
 .arrowContainer {
